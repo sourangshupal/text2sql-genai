@@ -1,0 +1,25 @@
+[project]
+name = "text2sql-genai"
+version = "0.1.0"
+description = "Text-to-SQL over Neon serverless Postgres with LangChain and LlamaIndex — teaching notebooks"
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=40.54.0",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.6",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.8.5",
+    "langfuse>=5.2.0",
+    "langgraph>=1.2.24",
+    "llama-index-core>=0.14.26",
+    "llama-index-embeddings-openai>=0.8.0",
+    "llama-index-llms-openai>=0.9.0",
+    "matplotlib>=3.11.2",
+    "openinference-instrumentation-llama-index>=4.7.9",
+    "pandas>=3.1.1",
+    "psycopg[binary]>=3.3.9",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.9",
+    "sqlglot>=30.33.0",
+]
